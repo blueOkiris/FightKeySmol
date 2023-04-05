@@ -22,20 +22,20 @@ So, this project is a tiny, inexpensive, DIY, keyboard-based fighting-game contr
 |:-----------:|:-----------------------------:|:----:|
 | PCB         | [Jlcpcb](https://jlcpcb.com/) | $30  |
 | Switches    | [Amazon][SwitchLink]          | $7   |
-| Key Caps    | [Amazon][CapLink]             | $10  |
+| Key Caps    | [Aliexpress][CapLink]         | $2   |
 | Pico        | [Amazon][PicoLink]            | $8   |
-| Rubber Feet | [Amazon][FeetLink]            | $6   |
-| Total       | -                             | $61  |
+| Rubber Feet | [Aliexpress][FeetLink]        | $2   |
+| Total       | -                             | $49  |
 
 There are probably cheaper ways to get parts like switches, but here's some starting points.
 
 [SwitchLink]: https://www.amazon.com/Keyswitch-Replaceable-Switches-Mechanical-Keyboard/dp/B07V4S3QDK/ref=sr_1_1?crid=2KVKUIIAKWWWM&keywords=cherry+mx&qid=1680653938&refinements=p_85%3A2470955011&rnid=2470954011&rps=1&s=electronics&sprefix=cherry+mx%2Celectronics%2C119&sr=1-1 "Amazon"
 
-[CapLink]: https://www.amazon.com/Keycap-Keycaps-Percent-Mechanical-Keyboard/dp/B08BR8KSNM/ref=sr_1_33?crid=1NH5LM0OYZRB3&keywords=cherry+mx+keycaps&qid=1680653223&refinements=p_85%3A2470955011&rnid=2470954011&rps=1&s=electronics&sprefix=cherry+mx+key+cap%2Celectronics%2C118&sr=1-33 "Amazon"
+[CapLink]: https://www.aliexpress.us/item/3256803462871478.html?spm=a2g0o.productlist.main.15.fd98sl21sl21Ub&algo_pvid=9ed2559f-ab14-4ea8-b05c-93050b38520c&algo_exp_id=9ed2559f-ab14-4ea8-b05c-93050b38520c-7&pdp_npi=3%40dis%21USD%211.5%211.12%21%21%21%21%21%4021224e9b16806567975486574d074d%2112000026645768333%21sea%21US%210&curPageLogUid=vViLogs9j2Z2 "Aliexpress"
 
 [PicoLink]: https://www.amazon.com/seeed-studio-Raspberry-Microcontroller-Dual-core/dp/B08TQSDP28/ref=sr_1_5?crid=2AFT7S4T0WLWI&keywords=raspberry+pi+pico&qid=1680652784&s=electronics&sprefix=raspberry+pi+pico%2Celectronics%2C132&sr=1-5 "Amazon"
 
-[FeetLink]: https://www.amazon.com/UOTOO-Laptop-Diameter-Replacement-MacBook/dp/B087774VG5/ref=sr_1_3?crid=F02BRHEO012B&keywords=sticky+rubber+feet&qid=1680652823&s=electronics&sprefix=sticky+rubber+feet%2Celectronics%2C111&sr=1-3 "Amazon"
+[FeetLink]: https://www.aliexpress.us/item/3256802824831274.html?spm=a2g0o.productlist.main.3.1d2euhP7uhP7xI&algo_pvid=2fb22ca9-1f01-4ad7-b061-13c82821ac5f&algo_exp_id=2fb22ca9-1f01-4ad7-b061-13c82821ac5f-1&pdp_npi=3%40dis%21USD%214.3%212.75%21%21%21%21%21%4021224e9b16806569370377705d074d%2112000023220982483%21sea%21US%210&curPageLogUid=p8IEdTjMobiL "Aliexpress"
 
 ## Subdirectories
 
