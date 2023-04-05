@@ -1,0 +1,4 @@
+# Build files of KiCAD
+output/
+*.zip
+
