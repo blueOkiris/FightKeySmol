@@ -54,5 +54,8 @@ There are probably cheaper ways to get parts like switches, but here's some star
    ![cap installation](pics/cap-installation.png)
 5. Add feet.
    ![feet installation](pics/feet-installation.png)
-6. Enjoy!
+6. Program the pico
+   - ![pico programming step 1](pics/prog-1.png)
+   - ![pico programming step 2](pics/prog-2.png)
+7. Enjoy!
 
