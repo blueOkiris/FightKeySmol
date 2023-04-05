@@ -8,7 +8,7 @@ However, lately I've been seeing people pay well over $100 for something that sh
 
 Now yes, you're paying for quality with the others. This doesn't come with an enclosure, and it's DIY; it's minimal, but for some people, that's worth not dropping >= $100. It's an option. That's all
 
-So, this project is a tiny, diy, inexpensive keyboard-based hitbox.
+So, this project is a tiny, inexpensive, DIY, keyboard-based fighting-game controller.
 
 ![Image of Physical Fight Key](/pics/fk-smol.jpg)
 
