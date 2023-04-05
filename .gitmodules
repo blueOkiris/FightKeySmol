@@ -1,0 +1,3 @@
+[submodule "GP2040-CE"]
+	path = GP2040-CE
+	url = https://github.com/OpenStickCommunity/GP2040-CE.git
