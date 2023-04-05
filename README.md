@@ -21,7 +21,7 @@ So, this project is a tiny, inexpensive, DIY, keyboard-based fighting-game contr
 | Part        | Link                          | Cost |
 |:-----------:|:-----------------------------:|:----:|
 | PCB         | [Jlcpcb](https://jlcpcb.com/) | $..  |
-| Switches    | [Amazon][SwitchLink]          | $17  |
+| Switches    | [Amazon][SwitchLink]          | $7   |
 | Key Caps    | [Amazon][CapLink]             | $10  |
 | Pico        | [Amazon][PicoLink]            | $8   |
 | Rubber Feet | [Amazon][FeetLink]            | $6   |
@@ -29,7 +29,7 @@ So, this project is a tiny, inexpensive, DIY, keyboard-based fighting-game contr
 
 There are probably cheaper ways to get parts like switches, but here's some starting points.
 
-[SwitchLink]: https://www.amazon.com/Original-Switches-Mechanical-Keyboard-Puller/dp/B09GVTTRYH/ref=sxts_rp_s_a_1_0?content-id=amzn1.sym.eff26b9b-e255-411b-a40d-eccb21f93fe4%3Aamzn1.sym.eff26b9b-e255-411b-a40d-eccb21f93fe4&crid=OGIN649RYNLA&cv_ct_cx=cherry%2Bmx%2Bblue%2Bswitches&keywords=cherry%2Bmx%2Bblue%2Bswitches&pd_rd_i=B09GVTTRYH&pd_rd_r=de26edff-1706-49b8-a3fd-2a174c47fd2e&pd_rd_w=xzHPp&pd_rd_wg=D75ZF&pf_rd_p=eff26b9b-e255-411b-a40d-eccb21f93fe4&pf_rd_r=5NAA6ADCH55172T5JBB8&qid=1680652531&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=cherry%2Bmx%2Bblue%2Bswitche%2Caps%2C126&sr=1-1-5985efba-8948-4f09-9122-d605505c9d1e&th=1 "Amazon"
+[SwitchLink]: https://www.amazon.com/Keyswitch-Replaceable-Switches-Mechanical-Keyboard/dp/B07V4S3QDK/ref=sr_1_1?crid=2KVKUIIAKWWWM&keywords=cherry+mx&qid=1680653938&refinements=p_85%3A2470955011&rnid=2470954011&rps=1&s=electronics&sprefix=cherry+mx%2Celectronics%2C119&sr=1-1 "Amazon"
 
 [CapLink]: https://www.amazon.com/Keycap-Keycaps-Percent-Mechanical-Keyboard/dp/B08BR8KSNM/ref=sr_1_33?crid=1NH5LM0OYZRB3&keywords=cherry+mx+keycaps&qid=1680653223&refinements=p_85%3A2470955011&rnid=2470954011&rps=1&s=electronics&sprefix=cherry+mx+key+cap%2Celectronics%2C118&sr=1-33 "Amazon"
 
