@@ -20,12 +20,12 @@ So, this project is a tiny, inexpensive, DIY, keyboard-based fighting-game contr
 
 | Part        | Link                          | Cost |
 |:-----------:|:-----------------------------:|:----:|
-| PCB         | [Jlcpcb](https://jlcpcb.com/) | $..  |
+| PCB         | [Jlcpcb](https://jlcpcb.com/) | $30  |
 | Switches    | [Amazon][SwitchLink]          | $7   |
 | Key Caps    | [Amazon][CapLink]             | $10  |
 | Pico        | [Amazon][PicoLink]            | $8   |
 | Rubber Feet | [Amazon][FeetLink]            | $6   |
-| Total       | -                             | $..  |
+| Total       | -                             | $61  |
 
 There are probably cheaper ways to get parts like switches, but here's some starting points.
 
@@ -54,7 +54,7 @@ There are probably cheaper ways to get parts like switches, but here's some star
    ![cap installation](pics/cap-installation.png)
 5. Add feet.
    ![feet installation](pics/feet-installation.png)
-6. Program the pico
+6. Program the pico. Use Pico/BoardConfig.h
    - ![pico programming step 1](pics/prog-1.png)
    - ![pico programming step 2](pics/prog-2.png)
 7. Enjoy!
