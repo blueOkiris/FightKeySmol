@@ -1,4 +1,8 @@
-# Fight Key
+# Fight Key Smol
+
+THIS PROJECT IS NOT FINISHED YET!!!!!!!
+
+Don't use
 
 ## Description
 
