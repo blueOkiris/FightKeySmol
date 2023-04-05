@@ -8,7 +8,7 @@ Don't use
 
 I made a [hitbox for myself]() a while back that's big and has an enclosure and all that good stuff and cost me maybe $80 to make.
 
-However, lately I've been seeing people pay well over $100 for something that should be maybe $40 max, so I'm redesigning that to fit the style people want, so there' a cheap alternative.
+However, lately I've been seeing people pay well over $100 for something that should be maybe $50 max, so I'm redesigning that to fit the style people want, so there' a cheap alternative.
 
 Now yes, you're paying for quality with the others. This doesn't come with an enclosure, and it's DIY; it's minimal, but for some people, that's worth not dropping >= $100. It's an option. That's all
 
