@@ -14,7 +14,7 @@ So, this project aims to be a tiny, inexpensive, DIY, keyboard-based fighting-ga
 
 ## Parts
 
-It currently costs \~$31 for materials, but shipping is another $10, so I will likely continue to look for more options to cut costs as even $40 is absurd.
+It currently costs \~$32 for materials, but shipping is another $10, so I will likely continue to look for more options to cut costs as even $40 is absurd.
 
 | Part         | Link                                             | Cost |
 |:------------:|:------------------------------------------------:|:----:|
