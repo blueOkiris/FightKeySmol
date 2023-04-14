@@ -26,9 +26,9 @@ It currently costs \~$32 for materials, but shipping is another $10, so I will l
 |:------------:|:------------------------------------------------:|:----:|
 | PCB          | [Jlcpcb](https://jlcpcb.com/)                    | $10  |
 | PCB Shipping | Choose Global Standard for cheaper               | $10  |
+| SPI Flash    | [Mouser](FlashLink)                              | $1   |
 | Switches     | [Amazon][SwitchLink]                             | $7   |
 | Key Caps     | [Aliexpress][CapLink]                            | $2   |
-| Pico         | [Amazon][PicoLink]                               | $8   |
 | Rubber Feet  | [Aliexpress][FeetLink] (Hot Glue is alternative) | $3   |
 | Total        | -                                                | $40  |
 
@@ -42,6 +42,8 @@ There are probably cheaper ways to get parts like switches, but here's some star
 
 [FeetLink]: https://www.aliexpress.us/item/3256802824831274.html?spm=a2g0o.order_list.order_list_main.4.21ef18022VpwPs&gatewayAdapt=glo2usa&_randl_shipto=US "Aliexpress"
 
+[FlashLink]: https://www.mouser.com/ProductDetail/Winbond/W25Q32JVSSIQ-TR?qs=qSfuJ%252Bfl%2Fd73AdQzQa%2FEuA%3D%3D "Mouser"
+
 ## Subdirectories
 
 - pcb - Fight Key Smol KiCAD PCB project
@@ -54,8 +56,8 @@ There are probably cheaper ways to get parts like switches, but here's some star
    ![jlcpcb order](pics/jlcpcb-order.png)
 2. Add feet.
    ![feet installation](pics/feet-installation.jpg)
-3. Solder the pico to the board.
-   ![pico soldering](pics/pico-soldering.jpg)
+3. Solder non-JLCPCB components
+   ![extra soldering](pics/extra-soldering.jpg)
 4. Add caps.
    ![cap installation](pics/cap-installation.jpg)
 5. Solder the switches to the board.
