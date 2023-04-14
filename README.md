@@ -1,31 +1,30 @@
 # Fight Key Smol
 
-THIS PROJECT IS NOT FINISHED YET!!!!!!!
-
-Don't use
-
 ## Description
 
-I made a [hitbox for myself]() a while back that's big and has an enclosure and all that good stuff and cost me maybe $80 to make.
+I made a [hitbox for myself](https://hackaday.io/project/185796-fight-key-wide) a while back that's big and has an enclosure and all that good stuff and cost me maybe $80 to make.
 
 However, lately I've been seeing people pay well over $100 for something that should be maybe $50 max, so I'm redesigning that to fit the style people want, so there' a cheap alternative.
 
 Now yes, you're paying for quality with the others. This doesn't come with an enclosure, and it's DIY; it's minimal, but for some people, that's worth not dropping >= $100. It's an option. That's all
 
-So, this project is a tiny, inexpensive, DIY, keyboard-based fighting-game controller.
+So, this project aims to be a tiny, inexpensive, DIY, keyboard-based fighting-game controller.
 
-![Image of Physical Fight Key](/pics/fk-smol.jpg)
+![Image of Physical Fight Key](pics/board-pic.jpg)
 
 ## Parts
 
-| Part        | Link                          | Cost |
-|:-----------:|:-----------------------------:|:----:|
-| PCB         | [Jlcpcb](https://jlcpcb.com/) | $30  |
-| Switches    | [Amazon][SwitchLink]          | $7   |
-| Key Caps    | [Aliexpress][CapLink]         | $2   |
-| Pico        | [Amazon][PicoLink]            | $8   |
-| Rubber Feet | [Aliexpress][FeetLink]        | $2   |
-| Total       | -                             | $49  |
+It currently costs \~$31 for materials, but shipping is another $20, so I will likely continue to look for more options to cut costs as even $50 is absurd.
+
+| Part         | Link                          | Cost |
+|:------------:|:-----------------------------:|:----:|
+| PCB          | [Jlcpcb](https://jlcpcb.com/) | $10  |
+| PCB Shipping | -                             | $20  |
+| Switches     | [Amazon][SwitchLink]          | $7   |
+| Key Caps     | [Aliexpress][CapLink]         | $2   |
+| Pico         | [Amazon][PicoLink]            | $8   |
+| Rubber Feet  | [Aliexpress][FeetLink]        | $2   |
+| Total        | -                             | $49  |
 
 There are probably cheaper ways to get parts like switches, but here's some starting points.
 
@@ -46,16 +45,20 @@ There are probably cheaper ways to get parts like switches, but here's some star
 
 1. Order the board from Jlcpcb. Can just use default options
    ![jlcpcb order](pics/jlcpcb-order.png)
-2. Solder the pico to the board.
-   ![pico soldering](pics/pico-soldering.png)
-3. Solder the switches to the board.
-   ![switch soldering](pics/switch-soldering.png)
+2. Add feet.
+   ![feet installation](pics/feet-installation.jpg)
+3. Solder the pico to the board.
+   ![pico soldering](pics/pico-soldering.jpg)
 4. Add caps.
-   ![cap installation](pics/cap-installation.png)
-5. Add feet.
-   ![feet installation](pics/feet-installation.png)
-6. Program the pico. Use Pico/BoardConfig.h
-   - ![pico programming step 1](pics/prog-1.png)
-   - ![pico programming step 2](pics/prog-2.png)
+   ![cap installation](pics/cap-installation.jpg)
+5. Solder the switches to the board.
+   - Press down to make sure they all get put evenly. You may need to 
+   - If not even, you can reheat a joint and push on the switch to adjust the angle.
+   ![press down](pics/press-down.jpg)
+   ![switch soldering](pics/keys-soldered.jpg)
+6. Program the pico. You don't need to rebuild it.
+   1. Press the pico's button down and plug it in to make it show up as a drive
+   2. Copy the .uf2 file in the repo to the drive. It will unmount and program and auto-remount as a controller
+   ![pico programming](pics/drag-n-drop.png)
 7. Enjoy!
 
