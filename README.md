@@ -16,15 +16,15 @@ So, this project aims to be a tiny, inexpensive, DIY, keyboard-based fighting-ga
 
 It currently costs \~$31 for materials, but shipping is another $20, so I will likely continue to look for more options to cut costs as even $50 is absurd.
 
-| Part         | Link                          | Cost |
-|:------------:|:-----------------------------:|:----:|
-| PCB          | [Jlcpcb](https://jlcpcb.com/) | $10  |
-| PCB Shipping | -                             | $20  |
-| Switches     | [Amazon][SwitchLink]          | $7   |
-| Key Caps     | [Aliexpress][CapLink]         | $2   |
-| Pico         | [Amazon][PicoLink]            | $8   |
-| Rubber Feet  | [Aliexpress][FeetLink]        | $2   |
-| Total        | -                             | $49  |
+| Part         | Link                               | Cost |
+|:------------:|:----------------------------------:|:----:|
+| PCB          | [Jlcpcb](https://jlcpcb.com/)      | $10  |
+| PCB Shipping | Choose Global Standard for cheaper | $10  |
+| Switches     | [Amazon][SwitchLink]               | $7   |
+| Key Caps     | [Aliexpress][CapLink]              | $2   |
+| Pico         | [Amazon][PicoLink]                 | $8   |
+| Rubber Feet  | [Aliexpress][FeetLink]             | $3   |
+| Total        | -                                  | $40  |
 
 There are probably cheaper ways to get parts like switches, but here's some starting points.
 
@@ -34,7 +34,7 @@ There are probably cheaper ways to get parts like switches, but here's some star
 
 [PicoLink]: https://www.amazon.com/seeed-studio-Raspberry-Microcontroller-Dual-core/dp/B08TQSDP28/ref=sr_1_5?crid=2AFT7S4T0WLWI&keywords=raspberry+pi+pico&qid=1680652784&s=electronics&sprefix=raspberry+pi+pico%2Celectronics%2C132&sr=1-5 "Amazon"
 
-[FeetLink]: https://www.aliexpress.us/item/3256802824831274.html?spm=a2g0o.productlist.main.3.1d2euhP7uhP7xI&algo_pvid=2fb22ca9-1f01-4ad7-b061-13c82821ac5f&algo_exp_id=2fb22ca9-1f01-4ad7-b061-13c82821ac5f-1&pdp_npi=3%40dis%21USD%214.3%212.75%21%21%21%21%21%4021224e9b16806569370377705d074d%2112000023220982483%21sea%21US%210&curPageLogUid=p8IEdTjMobiL "Aliexpress"
+[FeetLink]: https://www.aliexpress.us/item/3256802824831274.html?spm=a2g0o.order_list.order_list_main.4.21ef18022VpwPs&gatewayAdapt=glo2usa&_randl_shipto=US "Aliexpress"
 
 ## Subdirectories
 
