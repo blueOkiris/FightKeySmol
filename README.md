@@ -40,6 +40,7 @@ There are probably cheaper ways to get parts like switches, but here's some star
 
 - pcb - Fight Key Smol KiCAD PCB project
 - GP2040-CE - submodule containing code.
+- pics - Pics used for the README
 
 ## Build Instructions
 
