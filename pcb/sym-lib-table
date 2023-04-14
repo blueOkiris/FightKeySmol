@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "USB-C")(type "KiCad")(uri "${KIPRJMOD}/parts/ul_USB-310-B-SU/2023-04-14_21-16-58.kicad_sym")(options "")(descr ""))
+  (lib (name "3.3 Regulator")(type "KiCad")(uri "${KIPRJMOD}/parts/ul_AP2112K-3.3TRG1/2023-04-14_21-49-19.kicad_sym")(options "")(descr ""))
+  (lib (name "SPI Flash")(type "KiCad")(uri "${KIPRJMOD}/parts/ul_W25Q32JVSSIQ/2023-04-14_21-45-24.kicad_sym")(options "")(descr ""))
+)
