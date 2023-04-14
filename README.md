@@ -16,15 +16,15 @@ So, this project aims to be a tiny, inexpensive, DIY, keyboard-based fighting-ga
 
 It currently costs \~$31 for materials, but shipping is another $20, so I will likely continue to look for more options to cut costs as even $50 is absurd.
 
-| Part         | Link                               | Cost |
-|:------------:|:----------------------------------:|:----:|
-| PCB          | [Jlcpcb](https://jlcpcb.com/)      | $10  |
-| PCB Shipping | Choose Global Standard for cheaper | $10  |
-| Switches     | [Amazon][SwitchLink]               | $7   |
-| Key Caps     | [Aliexpress][CapLink]              | $2   |
-| Pico         | [Amazon][PicoLink]                 | $8   |
-| Rubber Feet  | [Aliexpress][FeetLink]             | $3   |
-| Total        | -                                  | $40  |
+| Part         | Link                                             | Cost |
+|:------------:|:------------------------------------------------:|:----:|
+| PCB          | [Jlcpcb](https://jlcpcb.com/)                    | $10  |
+| PCB Shipping | Choose Global Standard for cheaper               | $10  |
+| Switches     | [Amazon][SwitchLink]                             | $7   |
+| Key Caps     | [Aliexpress][CapLink]                            | $2   |
+| Pico         | [Amazon][PicoLink]                               | $8   |
+| Rubber Feet  | [Aliexpress][FeetLink] (Hot Glue is alternative) | $3   |
+| Total        | -                                                | $40  |
 
 There are probably cheaper ways to get parts like switches, but here's some starting points.
 
