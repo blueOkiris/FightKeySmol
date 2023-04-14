@@ -12,6 +12,12 @@ So, this project aims to be a tiny, inexpensive, DIY, keyboard-based fighting-ga
 
 ![Image of Physical Fight Key](pics/board-pic.jpg)
 
+## Software
+
+The software included in the repo and releases is a pre-built version of the [GP2040-CE](https://github.com/OpenStickCommunity/GP2040-CE) firmware.
+
+For version 1, there is a custom version due to Start and Select being switched. For version 2, this is not the case, and the stock software can be used.
+
 ## Parts
 
 It currently costs \~$32 for materials, but shipping is another $10, so I will likely continue to look for more options to cut costs as even $40 is absurd.
