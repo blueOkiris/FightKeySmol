@@ -20,52 +20,37 @@ For version 1, there is a custom version due to Start and Select being switched.
 
 ## Parts
 
-It currently costs \~$32 for materials, but shipping is another $10, so I will likely continue to look for more options to cut costs as even $40 is absurd.
+The only thing you need to source yourself are the key caps. You can get a cheap set for $2 on [Aliexpress](CapLink).
 
-| Part         | Link                                             | Cost |
-|:------------:|:------------------------------------------------:|:----:|
-| PCB          | [Jlcpcb](https://jlcpcb.com/)                    | $10  |
-| PCB Shipping | Choose Global Standard for cheaper               | $10  |
-| SPI Flash    | [Mouser](FlashLink)                              | $1   |
-| Switches     | [Amazon][SwitchLink]                             | $7   |
-| Key Caps     | [Aliexpress][CapLink]                            | $2   |
-| Rubber Feet  | [Aliexpress][FeetLink] (Hot Glue is alternative) | $3   |
-| Total        | -                                                | $40  |
+Beyond that, you'll want to use [Jlcpcb](https://jlcpcb.com) to order the board and use automatic assembly. This will place all the internals as well as the switches into the PCB and ship it to you.
 
-There are probably cheaper ways to get parts like switches, but here's some starting points.
+Cost comes out to:
 
-[SwitchLink]: https://www.amazon.com/Keyswitch-Replaceable-Switches-Mechanical-Keyboard/dp/B07V4S3QDK/ref=sr_1_1?crid=2KVKUIIAKWWWM&keywords=cherry+mx&qid=1680653938&refinements=p_85%3A2470955011&rnid=2470954011&rps=1&s=electronics&sprefix=cherry+mx%2Celectronics%2C119&sr=1-1 "Amazon"
+| Part                                              | Cost |
+|:-------------------------------------------------:|:----:|
+| PCB and Assembly                                  | $22  |
+| PCB Shipping (Choose Global Standard for cheaper) | $10  |
+| Key Caps                                          | $2   |
+| Total                                             | $34  |
 
 [CapLink]: https://www.aliexpress.us/item/3256803462871478.html?spm=a2g0o.productlist.main.15.fd98sl21sl21Ub&algo_pvid=9ed2559f-ab14-4ea8-b05c-93050b38520c&algo_exp_id=9ed2559f-ab14-4ea8-b05c-93050b38520c-7&pdp_npi=3%40dis%21USD%211.5%211.12%21%21%21%21%21%4021224e9b16806567975486574d074d%2112000026645768333%21sea%21US%210&curPageLogUid=vViLogs9j2Z2 "Aliexpress"
-
-[PicoLink]: https://www.amazon.com/seeed-studio-Raspberry-Microcontroller-Dual-core/dp/B08TQSDP28/ref=sr_1_5?crid=2AFT7S4T0WLWI&keywords=raspberry+pi+pico&qid=1680652784&s=electronics&sprefix=raspberry+pi+pico%2Celectronics%2C132&sr=1-5 "Amazon"
-
-[FeetLink]: https://www.aliexpress.us/item/3256802824831274.html?spm=a2g0o.order_list.order_list_main.4.21ef18022VpwPs&gatewayAdapt=glo2usa&_randl_shipto=US "Aliexpress"
-
-[FlashLink]: https://www.mouser.com/ProductDetail/Winbond/W25Q32JVSSIQ-TR?qs=qSfuJ%252Bfl%2Fd73AdQzQa%2FEuA%3D%3D "Mouser"
 
 ## Subdirectories
 
 - pcb - Fight Key Smol KiCAD PCB project
-- GP2040-CE - submodule containing code.
 - pics - Pics used for the README
 
-## Build Instructions
+## Ordering and Programming
 
-1. Order the board from Jlcpcb. Can just use default options
-   ![jlcpcb order](pics/jlcpcb-order.png)
-2. Add feet.
-   ![feet installation](pics/feet-installation.jpg)
-3. Solder non-JLCPCB components
-   ![extra soldering](pics/extra-soldering.jpg)
-4. Add caps.
-   ![cap installation](pics/cap-installation.jpg)
-5. Solder the switches to the board.
-   - Press down to make sure they all get put evenly. You may need to 
-   - If not even, you can reheat a joint and push on the switch to adjust the angle.
-   ![press down](pics/press-down.jpg)
-   ![switch soldering](pics/keys-soldered.jpg)
-6. Program the pico. You don't need to rebuild it.
+1. Go to JLCPCB and click on "Instant Quote"
+   ![jlcpcb instant](pics/instant-quote.png)
+2. Click "Upload" and upload the "FightKeySmol-Gerber.zip" file from the GitHub Releases. You don't need to mess with any options here.
+3. Scroll down to "PCB Assembly" and enable it. Select just one and click Submit
+   ![jlcpcb assembly](pics/assembly-sel.png)
+4. Click Next and then upload the "pcb/parts/BOM.xls" for the BOM and "pcb/parts/FightKey-CPL.xlsx" for the CPL. Then click process.
+   ![jlcpcb bom](pic/bom-cpl.png)
+5. Click to continue on the next page, and proceed to ordering the boards.
+6. Once you have the board, you need to program it. You don't need to rebuild the code or anything.
    1. Press the pico's button down and plug it in to make it show up as a drive
    2. Copy the .uf2 file in the repo to the drive. It will unmount and program and auto-remount as a controller
    ![pico programming](pics/drag-n-drop.png)
